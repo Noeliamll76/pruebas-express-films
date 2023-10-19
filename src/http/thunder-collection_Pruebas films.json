@@ -1,0 +1,84 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Pruebas films",
+    "dateExported": "2023-10-19T11:11:20.337Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e0d2cbd1-a337-4f6a-8666-22c20400bc08",
+            "colId": "9cb82f6b-426d-477c-a13f-82a919ef41ce",
+            "containerId": "",
+            "name": "localhost:4000/films/80",
+            "url": "localhost:4000/films/80",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-10-18T19:33:08.190Z",
+            "modified": "2023-10-18T19:33:08.190Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1a9653b3-fc7b-4376-a967-5e679c311523",
+            "colId": "9cb82f6b-426d-477c-a13f-82a919ef41ce",
+            "containerId": "",
+            "name": "localhost:4000/films/40",
+            "url": "localhost:4000/films/40",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-10-18T19:33:27.306Z",
+            "modified": "2023-10-18T19:33:27.306Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "02d226cd-5342-4261-a538-28138c275f03",
+            "colId": "9cb82f6b-426d-477c-a13f-82a919ef41ce",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-10-18T19:34:06.396Z",
+            "modified": "2023-10-19T10:56:57.453Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"El ciempies humano\",\n  \"director\": \"Borja Flipao\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d34f40d8-e5cf-4313-a6d6-2adf64b859cc",
+            "colId": "9cb82f6b-426d-477c-a13f-82a919ef41ce",
+            "containerId": "",
+            "name": "localhost:4000/films",
+            "url": "localhost:4000/films",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-10-18T19:34:12.764Z",
+            "modified": "2023-10-18T19:34:12.764Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c41ce7bb-62f9-4c3c-8cca-87a6e4a8a1c6",
+            "colId": "9cb82f6b-426d-477c-a13f-82a919ef41ce",
+            "containerId": "",
+            "name": "localhost:4000/films/5",
+            "url": "localhost:4000/films/5",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-10-19T10:18:01.159Z",
+            "modified": "2023-10-19T10:18:01.159Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

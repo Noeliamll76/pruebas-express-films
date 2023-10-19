@@ -7,6 +7,10 @@ const getFilms = (req:Request, res:Response) => {
 }
 const createFilms = (req:Request, res:Response) => {
     //logica para crear peliculas
+    console.log('create')
+
+    console.log(req.body.title)
+
     return res.send('CREATE FILMS')
 }
 const updateFilmById = (req:Request, res:Response) => {
@@ -17,6 +21,9 @@ const deleteFilmById = (req:Request, res:Response) => {
     //logica para borrar peliculas
     return res.send('DELETE BY ID FILMS')
 }
+const getFilmsById = (req:Request, res:Response) => {
+    // logica para recuperar pelicula por id
+        return res.send('GET by id FILMS')
+    }
 
-
-export{getFilms, createFilms, updateFilmById, deleteFilmById}
+export{getFilms, createFilms, updateFilmById, deleteFilmById, getFilmsById}
