@@ -1,25 +1,24 @@
 import { Router } from "express";
+import {getFilms} from "../controllers/filmsController"
 
 const router = Router()
+router.get('/', getFilms)
 
-router.get('/films', (req, res) => {
-    //logica de lo que y quiero hacer/devolver
-    return res.send('GET FILMS')
-})
+router.get('/', getFilms)
 
-router.post('/films', (req, res) => {
+router.post('/', (req, res) => {
     //logica para crear peliculas
     console.log('create')
     return res.send('CREATE FILMS')
 })
 
-router.put('/films/:id', (req,res)=>{
+router.put('/:id', (req,res)=>{
     //logica para actualizar peliculas
     const filmId=req.params.id
     return res.send('UPDATE FILMS '+filmId)
 })
 
-router.delete('/films/:id', (req,res)=>{
+router.delete('/:id', (req,res)=>{
     //logica para borrar peliculas
     const filmId=req.params.id
     return res.send('DELETE FILMS '+filmId)
