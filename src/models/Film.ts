@@ -1,6 +1,7 @@
 import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from "typeorm"
 
 @Entity("films")
+
 export class Film extends BaseEntity{
 
 @PrimaryGeneratedColumn()    

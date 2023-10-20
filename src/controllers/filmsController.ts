@@ -1,9 +1,10 @@
 import { Request, Response } from "express"
 
 
-const getFilms = (req:Request, res:Response) => {
+const getFilms = async(req:Request, res:Response) => {
+   const films = await Film.find()
 // logica de lo que yo quiero hacer/devolver
-    return res.send('GET FILMS')
+    return res.send(films)
 }
 
 const createFilms = (req:Request, res:Response) => {
